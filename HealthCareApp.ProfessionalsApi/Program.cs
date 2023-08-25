@@ -12,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 Configuration.ConfigureDatabases(builder);
+Configuration.RegisterMaps(builder);
 
 var app = builder.Build();
 

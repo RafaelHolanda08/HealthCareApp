@@ -22,7 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Base", "Platform.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Professionals.Entity", "Platform.Professionals.Entity\Platform.Professionals.Entity.csproj", "{A69B86D8-1D99-444F-9290-CD71AD1A9B03}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Repositories", "Platform.Repositories\Platform.Repositories.csproj", "{CF787352-22AC-4DF1-B336-EC4E00EAF622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Context", "Platform.Repositories\Platform.Context.csproj", "{CF787352-22AC-4DF1-B336-EC4E00EAF622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.DTOs", "Common.DTOs\Common.DTOs.csproj", "{DBF2D200-C882-4099-B675-857DFF9CEDF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{CF787352-22AC-4DF1-B336-EC4E00EAF622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF787352-22AC-4DF1-B336-EC4E00EAF622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF787352-22AC-4DF1-B336-EC4E00EAF622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF2D200-C882-4099-B675-857DFF9CEDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF2D200-C882-4099-B675-857DFF9CEDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF2D200-C882-4099-B675-857DFF9CEDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF2D200-C882-4099-B675-857DFF9CEDF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{DE1F5B2B-3B2B-470D-A307-B112E6BD70FF} = {30BF2227-762A-48B3-ABDE-C4B70EB51844}
 		{A69B86D8-1D99-444F-9290-CD71AD1A9B03} = {30BF2227-762A-48B3-ABDE-C4B70EB51844}
 		{CF787352-22AC-4DF1-B336-EC4E00EAF622} = {30BF2227-762A-48B3-ABDE-C4B70EB51844}
+		{DBF2D200-C882-4099-B675-857DFF9CEDF5} = {30BF2227-762A-48B3-ABDE-C4B70EB51844}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4BE397A-798D-4AAD-99EB-758CF16A8D27}

@@ -34,7 +34,8 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Platform.Base\Platform.Base.csproj" />
-		<ProjectReference Include="..\Platform.Repositories\Platform.Repositories.csproj" />
+		<ProjectReference Include="..\Platform.Professionals.Entity\Platform.Professionals.Entity.csproj" />
+		<ProjectReference Include="..\Platform.Repositories\Platform.Context.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

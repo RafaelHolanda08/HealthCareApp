@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.EntityFrameworkCore;
 using Platform.Base.Entities;
 
 
-namespace Platform.Repositories {
+namespace Platform.Context {
     public class GeneralContext : DbContext {
         public GeneralContext() {
         }

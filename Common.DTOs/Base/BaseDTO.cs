@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Platform.Base.DTO {
-    public abstract class BaseDTO{
+namespace Common.DTOs.Base
+{
+    public abstract class BaseDTO
+    {
         public long? Id { get; set; }
     }
 }
